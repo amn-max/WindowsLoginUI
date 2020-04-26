@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 # Windows Login UI
-=======
-#Windows Login UI
->>>>>>> 8c81959cf858b680601874d0662007186e965bd0
 
 Simple login UI created with Visual Csharp(Windows Forms Application
 
