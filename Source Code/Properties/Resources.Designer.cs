@@ -123,6 +123,16 @@ namespace Login_Data.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap google_50White {
+            get {
+                object obj = ResourceManager.GetObject("google-50White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap instagram_50 {
             get {
                 object obj = ResourceManager.GetObject("instagram-50", resourceCulture);

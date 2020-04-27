@@ -38,6 +38,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.InstaPic = new System.Windows.Forms.PictureBox();
             this.FacebookPic = new System.Windows.Forms.PictureBox();
             this.GooglePic = new System.Windows.Forms.PictureBox();
@@ -45,9 +48,8 @@
             this.PasswordPic = new System.Windows.Forms.PictureBox();
             this.UserPic = new System.Windows.Forms.PictureBox();
             this.MainLogo = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.label2 = new System.Windows.Forms.Label();
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.InstaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FacebookPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GooglePic)).BeginInit();
@@ -167,6 +169,29 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Login with";
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 10;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(454, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(23, 23);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
             // InstaPic
             // 
             this.InstaPic.BackgroundImage = global::Login_Data.Properties.Resources.instagram_50;
@@ -197,6 +222,7 @@
             this.GooglePic.Size = new System.Drawing.Size(50, 50);
             this.GooglePic.TabIndex = 13;
             this.GooglePic.TabStop = false;
+            this.GooglePic.Click += new System.EventHandler(this.GooglePic_Click);
             // 
             // emailpic
             // 
@@ -234,28 +260,15 @@
             this.MainLogo.TabIndex = 1;
             this.MainLogo.TabStop = false;
             // 
-            // timer1
+            // timer3
             // 
-            this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer3.Interval = 10;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
-            // timer2
+            // timer4
             // 
-            this.timer2.Interval = 10;
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(454, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(23, 23);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "X";
-            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            this.timer4.Interval = 10;
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
             // Form1
             // 
@@ -286,7 +299,6 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.InstaPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FacebookPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GooglePic)).EndInit();
@@ -320,6 +332,8 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
     }
 }
 

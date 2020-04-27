@@ -19,8 +19,9 @@ namespace Login_Data
 
         }
 
-       
+
         Form2 frm2 = new Form2();
+        Form3 frm3 = new Form3();
 
         private void textBox3_Click(object sender, EventArgs e)
         {
@@ -56,6 +57,7 @@ namespace Login_Data
 
         private void textBox2_Click(object sender, EventArgs e)
         {
+            //label3.Text = frm2.Left.ToString();
             textBox2.Clear();
             textBox2.PasswordChar = '*';
             panel3.BackColor = Color.FromArgb(255, 255, 255);
@@ -74,11 +76,12 @@ namespace Login_Data
         private void FacebookPic_Click(object sender, EventArgs e)
         {
             timer1.Start();
+            frm2.Show();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-          //  label2.Text = frm2.Left.ToString();
+           // label3.Text = frm2.Left.ToString();
             frm2.Left += 10;
             if(frm2.Left>=830)
             {
@@ -91,22 +94,46 @@ namespace Login_Data
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-          //  label2.Text = frm2.Left.ToString();
+            //label3.Text = frm2.Left.ToString();
             frm2.Left -= 10;
-            if(frm2.Left<=712)
+            if(frm2.Left<=715)
             {
                 timer2.Stop();
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            frm2.Show();
         }
 
         private void label2_Click_1(object sender, EventArgs e)
         {
             Close();
         }
+
+        private void GooglePic_Click(object sender, EventArgs e)
+        {
+            timer3.Start();
+            frm3.Show();
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            frm3.Left += 10;
+            if (frm3.Left >= 830)
+            {
+                timer3.Stop();
+                this.TopMost = false;
+                frm3.TopMost = false;
+                timer4.Start();
+            }
+        }
+
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+            frm3.Left -= 10;
+            if (frm3.Left <= 715)
+            {
+                timer4.Stop();
+            }
+        }
+
+       
     }
 }
