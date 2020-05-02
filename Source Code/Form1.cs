@@ -22,6 +22,7 @@ namespace Login_Data
 
         Form2 frm2 = new Form2();
         Form3 frm3 = new Form3();
+        Form4 frm4 = new Form4();
 
         private void textBox3_Click(object sender, EventArgs e)
         {
@@ -134,6 +135,31 @@ namespace Login_Data
             }
         }
 
-       
+        private void InstaPic_Click(object sender, EventArgs e)
+        {
+            timer5.Start();
+            frm4.Show();
+        }
+
+        private void timer5_Tick(object sender, EventArgs e)
+        {
+            frm4.Left += 10;
+            if (frm4.Left >= 830)
+            {
+                timer5.Stop();
+                this.TopMost = false;
+                frm4.TopMost = false;
+                timer6.Start();
+            }
+        }
+
+        private void timer6_Tick(object sender, EventArgs e)
+        {
+            frm4.Left -= 10;
+            if (frm4.Left <= 715)
+            {
+                timer6.Stop();
+            }
+        }
     }
 }

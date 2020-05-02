@@ -118,17 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="emailAqua30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\emailAqua30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PasswordAqua30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PasswordAqua30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="emailWhite30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\emailWhite30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAIN_LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\MAIN_LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PasswordWhite30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PasswordWhite30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="google-50 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\google-50 - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="emailAqua30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\emailAqua30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="facebook-old-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\facebook-old-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,25 +136,28 @@
   <data name="facebook-old-50White" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\facebook-old-50White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="UserIcon30White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\UserIcon30White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-50 - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\google-50 - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="instagram-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\instagram-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PasswordWhite30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PasswordWhite30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="google-50White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\google-50White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PasswordAqua30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PasswordAqua30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="google-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\google-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MAIN_LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\MAIN_LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="UserIcon30Aqua" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\UserIcon30Aqua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="UserIcon30White" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\UserIcon30White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="google-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\google-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="google-50White" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\google-50White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="instagram-50white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\instagram-50white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

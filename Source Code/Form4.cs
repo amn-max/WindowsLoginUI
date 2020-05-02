@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Login_Data
 {
-    public partial class Form3 : Form
+    public partial class Form4 : Form
     {
-        public Form3()
+        public Form4()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace Login_Data
         {
             textBox1.Clear();
             panel1.BackColor = Color.FromArgb(79, 184, 206);
-            EmailPic.BackgroundImage = Properties.Resources.emailAqua30;
+            UserPic.BackgroundImage = Properties.Resources.UserIcon30Aqua;
             textBox1.ForeColor = Color.FromArgb(79, 184, 206);
 
             panel2.BackColor = Color.FromArgb(255, 255, 255);
@@ -34,7 +34,7 @@ namespace Login_Data
             textBox2.Clear();
             textBox2.PasswordChar = '*';
             panel1.BackColor = Color.FromArgb(255, 255, 255);
-            EmailPic.BackgroundImage = Properties.Resources.emailWhite30;
+            UserPic.BackgroundImage = Properties.Resources.UserIcon30White;
             textBox1.ForeColor = Color.FromArgb(255, 255, 255);
 
             panel2.BackColor = Color.FromArgb(79, 184, 206);
@@ -45,11 +45,6 @@ namespace Login_Data
         private void label2_Click(object sender, EventArgs e)
         {
             this.Hide();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

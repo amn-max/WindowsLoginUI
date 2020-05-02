@@ -41,6 +41,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
             this.InstaPic = new System.Windows.Forms.PictureBox();
             this.FacebookPic = new System.Windows.Forms.PictureBox();
             this.GooglePic = new System.Windows.Forms.PictureBox();
@@ -48,8 +50,8 @@
             this.PasswordPic = new System.Windows.Forms.PictureBox();
             this.UserPic = new System.Windows.Forms.PictureBox();
             this.MainLogo = new System.Windows.Forms.PictureBox();
-            this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.timer5 = new System.Windows.Forms.Timer(this.components);
+            this.timer6 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.InstaPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FacebookPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GooglePic)).BeginInit();
@@ -192,6 +194,16 @@
             this.label2.Text = "X";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
+            // timer3
+            // 
+            this.timer3.Interval = 10;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // timer4
+            // 
+            this.timer4.Interval = 10;
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            // 
             // InstaPic
             // 
             this.InstaPic.BackgroundImage = global::Login_Data.Properties.Resources.instagram_50;
@@ -201,6 +213,7 @@
             this.InstaPic.Size = new System.Drawing.Size(50, 50);
             this.InstaPic.TabIndex = 15;
             this.InstaPic.TabStop = false;
+            this.InstaPic.Click += new System.EventHandler(this.InstaPic_Click);
             // 
             // FacebookPic
             // 
@@ -260,15 +273,15 @@
             this.MainLogo.TabIndex = 1;
             this.MainLogo.TabStop = false;
             // 
-            // timer3
+            // timer5
             // 
-            this.timer3.Interval = 10;
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            this.timer5.Interval = 10;
+            this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
             // 
-            // timer4
+            // timer6
             // 
-            this.timer4.Interval = 10;
-            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            this.timer6.Interval = 10;
+            this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
             // 
             // Form1
             // 
@@ -334,6 +347,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.Timer timer5;
+        private System.Windows.Forms.Timer timer6;
     }
 }
 
